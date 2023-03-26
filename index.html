@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>моя учеба во фрилансе</title>
+    <meta http-equiv="content-type" content="text/html" ; charset="UTF-8" />
+    <link rel="stylesheet" href="css/css.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="content">
+          <h2>01</h2>
+          <h3>имя фамилия</h3>
+          <p>промышленный альпинист, высотные работы</p>
+          <a href="#">сайт</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <img src="islands-200.jfif" />
+          <h3>Евгений Дещеня</h3>
+          <p>промышленный альпинист, высотные работы</p>
+          <a href="https://alp-life.by/">сайт</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2>03</h2>
+          <h3>имя фамилия</h3>
+          <p>промышленный альпинист, высотные работы</p>
+          <a href="#">сайт</a>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+      });
+    </script>
+  </body>
+</html>
